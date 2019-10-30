@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.example.finalprojectapplication"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //https://api.themoviedb.org/3/discover/tv?api_key=cc95b5cc8e36b6e407ca52aebbf908ec&language=en-US
+        buildConfigField("String", "API_KEY", '"cc95b5cc8e36b6e407ca52aebbf908ec"')
+        buildConfigField("String", "BASE_URL", '"https://api.themoviedb.org/3/discover"')
+        // https://image.tmdb.org/t/p/w185/bI37vIHSH7o4IVkq37P8cfxQGMx.jpg
+        buildConfigField("String", "BASE_URL_POSTER", '"https://image.tmdb.org/t/p"')
+        //https://api.themoviedb.org/3/search/movie?api_key={API KEY}&language=en-US&query={MOVIE NAME}
+        buildConfigField("String", "BASE_URL_SEARCH", '"https://api.themoviedb.org/3/search"')
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.android.support:design:29.0.0'
+    implementation 'com.android.support:recyclerview-v7:29.0.0'
+    implementation 'com.android.support:cardview-v7:29.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.android.support:appcompat-v7:29.0.0'
+    implementation 'com.loopj.android:android-async-http:1.4.10'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation 'com.loopj.android:android-async-http:1.4.10'
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

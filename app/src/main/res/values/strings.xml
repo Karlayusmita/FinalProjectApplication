@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Movie n Tv SHow Application</string>
+    <!-- Label and Title -->
+    <string name="movie_label">MOVIE</string>
+    <string name="tv_show_label">TV SHOW</string>
+    <string name="favorite_label">FAVORITE</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="tv_show_detail">TV Show Detail</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="release_reminder">New Movie is Release</string>
+    <string name="search_result">Search Result of \"%s\"</string>
+
+    <!-- Item View and Detail-->
+    <string name="poster">This is Poster</string>
+    <string name="vote_count">Vote Count</string>
+    <string name="release_date">Release Date</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="original_language">Original Language</string>
+    <string name="overview">Overview</string>
+    <string name="tv_name">Tv Name</string>
+    <string name="first_air_date">First Air Date</string>
+
+    <!-- Widget and Menu-->
+    <string name="favorite_movie">Favorite Movie</string>
+    <string name="empty">No Favorite Movie</string>
+    <string name="search">Search</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="reminder_settings">Reminder Settings</string>
+
+    <!-- Toast -->
+    <string name="remove">Remove From Favorite</string>
+    <string name="failed_remove">Failed to Remove</string>
+    <string name="add">Add to Favorite</string>
+    <string name="failed_add">Failed to Add</string>
+    <string name="daily_message">It\'s time to look at your catalog</string>
+    <string name="daily_is_set_up">Daily Reminder is Set Up</string>
+    <string name="release_message">%s is Release !!!</string>
+    <string name="release_is_set_up">Release Reminder is Set Up</string>
+
+    <!-- Key -->
+    <string name="key_daily" translatable="false">key_daily_reminder</string>
+    <string name="key_release" translatable="false">key_release_reminder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="appwidget_text" translatable="false">EXAMPLE</string>
+    <string name="add_widget" translatable="false">Add widget</string>
+</resources>

@@ -1,0 +1,47 @@
+package com.example.finalprojectapplication;
+
+public final class Contract {
+    public static final String API_KEY = BuildConfig.API_KEY;
+    public static final String BASE_URL = BuildConfig.BASE_URL;
+    public static final String BASE_URL_POSTER = BuildConfig.BASE_URL_POSTER;
+    public static final String BASE_URL_SEARCH = BuildConfig.BASE_URL_SEARCH;
+    public static final String MOVIE = "movie";
+    public static final String TV = "tv";
+    public static final String API = "api_key";
+    public static final String LANGUAGE = "language";
+    public static final String LANGUAGE_VALUE = "en-US";
+    public static final String QUERY = "query";
+    public static final String SIZE = "/w185";
+    public static final String GTE = "primary_release_date.gte";
+    public static final String LTE = "primary_release_date.lte";
+    public static final String MOVIE_DATA = "movie_data";
+    public static final String TV_SHOW_DATA = "tv_show_data";
+    public static final String AUTHORITY = "com.example.finalprojectapplication";
+    public static final String TASKS = "tasks";
+    public static final String CONTENT = "content";
+    public static final int TEST = 24;
+    public static final int TEST_ID = 8;
+    public static final int CLEANUP_ID = 1998;
+    public static final String ID = "id";
+    public static final String POSTER = "poster";
+    public static final String TITLE = "title";
+    public static final String ORIGINAl_LANGUAGE = "original_language";
+    public static final String RELEASE_DATE = "release_date";
+    public static final String OVERVIEW = "overview";
+    public static final String VOTE_AVERAGE = "vote_average";
+    public static final String VOTE_COUNT = "vote_count";
+    public static final String FRAGMENT = "fragment";
+    public static final String EXTRA_QUERY = "extra_query";
+    public static final String RESULTS = "results";
+    public static final String RESULTSS = "results";
+    public static final String KEY = "key";
+    public static final String TOAST_ACTION = "com.example.finalprojectapplication.TOAST_ACTION";
+    public static final String EXTRA_ITEM = "com.example.finalprojectapplication.EXTRA_ITEM";
+    public static final String CHANNEL = "998";
+    public static final int CHANNEL_ID = 998;
+    public static final String NOTIF_ID = "notif_id";
+    public static final String NEW_MOVIE = "new_movie";
+    public static int GET_NOTIFICATION = 8;
+    public static final String KEY_DAILY = "key_daily_reminder";
+    public static final String KEY_RELEASE = "key_release_reminder";
+}

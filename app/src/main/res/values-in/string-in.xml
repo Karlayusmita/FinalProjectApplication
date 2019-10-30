@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplikasi Film dan Acara TV</string>
+    <!-- Label and Title -->
+    <string name="movie_label">FILM</string>
+    <string name="tv_show_label">ACARA TV</string>
+    <string name="favorite_label">SUKA</string>
+    <string name="movie_detail">Detail Film</string>
+    <string name="tv_show_detail">Detail Acara TV</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_reminder">Ada Film Rilis</string>
+
+    <!-- Item View and Detail-->
+    <string name="poster">Ini adalah Poster</string>
+    <string name="vote_count">Jumlah Voting</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="original_language">Bahasa Asli</string>
+    <string name="overview">Ringkasan</string>
+    <string name="tv_name">Nama Acara TV</string>
+    <string name="first_air_date">Tanggal Tayang Pertama</string>
+
+    <!-- Widget and Menu-->
+    <string name="favorite_movie">Film Kesukaan</string>
+    <string name="empty">Tidak Ada Film Kesukaan</string>
+    <string name="search">Cari</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="reminder_settings">Pengaturan Pengingat</string>
+
+    <!-- Toast -->
+    <string name="remove">Hapus dari Favorit</string>
+    <string name="failed_remove">Gagal Menghapus</string>
+    <string name="add">Tambahkan ke Favorit</string>
+    <string name="failed_add">Gagal Menambahkan</string>
+    <string name="daily_message">Waktunya untuk Melihat Katalog</string>
+    <string name="daily_is_set_up">Pengingat Harian Sudah Diatur</string>
+    <string name="release_message">%s Rilis!!!</string>
+    <string name="release_is_set_up">Pengingat Film Rilis Sudah Diatur</string>
+</resources>
